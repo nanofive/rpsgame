@@ -39,7 +39,7 @@ const game = () => {
         const computerSelection = getComputerChoice();
         alert(playRound(playerSelection, computerSelection));
     }
-    alert("Well done.");
+    alert("Finished!");
 }
 
 game();
