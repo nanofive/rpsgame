@@ -89,7 +89,7 @@ const game = () => {
             printResult(playerScore, computerScore, round);
             if (playerScore == 5) {
                 printFinalResult("YOU");
-            } else {
+            } else if (computerScore == 5) {
                 printFinalResult("COMPUTER");
             }
         } else {
